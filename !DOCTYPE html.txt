@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Tail | 高端宠物用品</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 内嵌关键样式，确保图片立即正常显示 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 简洁导航 -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🐾 <strong>Magic Tail</strong></h1>
+            <p class="tagline">高端宠物用品品牌</p>
+        </div>
+    </header>
+
+    <!-- 主展示区 -->
+    <main class="main-content">
+        <div class="container">
+            <!-- 产品展示卡片 -->
+            <div class="product-showcase">
+                <div class="product-info">
+                    <h2>为爱宠设计的美好生活</h2>
+                    <p class="highlight">每一件Magic Tail产品，都承载着对宠物的爱与关怀</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <span>✅</span>
+                            <div>
+                                <h3>安全材质</h3>
+                                <p>选用宠物安全级原材料，通过国际认证</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span>✅</span>
+                            <div>
+                                <h3>贴心设计</h3>
+                                <p>基于宠物行为学，设计更符合天性</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span>✅</span>
+                            <div>
+                                <h3>环保理念</h3>
+                                <p>可降解包装，关爱地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary">了解更多</a>
+                        <a href="mailto:your-email@example.com" class="btn secondary">联系我们</a>
+                    </div>
+                </div>
+                
+                <!-- 产品图片展示 -->
+                <div class="product-image">
+                    <div class="image-frame">
+                        <img src="images/family.jpg" 
+                             alt="Magic Tail 产品全家福"
+                             loading="eager"
+                             onerror="this.src='https://images.unsplash.com/photo-1596276020582-1fb5b91f1566?auto=format&fit=crop&w=800'">
+                    </div>
+                    <p class="image-caption">Magic Tail 精选产品系列</p>
+                </div>
+            </div>
+            
+            <!-- 简洁的产品网格（占位符） -->
+            <div class="product-grid">
+                <h3>产品系列</h3>
+                <div class="grid">
+                    <div class="product-item">
+                        <div class="placeholder-img">🐕</div>
+                        <h4>舒适宠物窝</h4>
+                        <p>记忆棉床垫，四季可用</p>
+                    </div>
+                    <div class="product-item">
+                        <div class="placeholder-img">🍽️</div>
+                        <h4>智能喂食器</h4>
+                        <p>定时定量，远程控制</p>
+                    </div>
+                    <div class="product-item">
+                        <div class="placeholder-img">🎾</div>
+                        <h4>环保玩具</h4>
+                        <p>天然材料，安全耐咬</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 简洁页脚 -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Magic Tail</h3>
+                    <p>让宠物的生活充满魔力与舒适</p>
+                </div>
+                <div class="contact-info">
+                    <p>📧 联系: your-email@example.com</p>
+                    <p>🌐 网站: <a href="https://magictail2022.github.io">magictail2022.github.io</a></p>
+                </div>
+            </div>
+            <p class="copyright">© 2024 Magic Tail. 托管于 GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
